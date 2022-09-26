@@ -1,4 +1,4 @@
-//problem link - https://leetcode.com/problems/find-the-duplicate-number/
+//problem link - https://leetcode.com/problems/sort-colors/
 //Approach1 - sorting
 //Approach2 - count 0,1,2
 
