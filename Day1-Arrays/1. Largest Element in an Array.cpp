@@ -1,4 +1,4 @@
-/***
+/*
 Find the Largest element in an array
 Problem Statement: Given an array, we have to find the largest element in the array.
 
@@ -14,7 +14,7 @@ Input: arr[] = {8,10,5,7,9};
 Output: 10
 Explanation: 10 is the largest element in the array. 
 
-***/
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
