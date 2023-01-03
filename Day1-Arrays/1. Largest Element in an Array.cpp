@@ -22,37 +22,21 @@ Explanation: 10 is the largest element in the array.
 
 #include <bits/stdc++.h>
 using namespace std;
-class Solution
-{
-public:
-    int largest(vector<int> &a, int n)
-    {
-        int max=a[0];
-        for(int i=0;i<n;i++){
-            if(a[i]>max){
-                max=a[i];
-            }
-        }
-        return max;
-    }
-};
 
-
-int main()
-{
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        int n;
-        cin >> n;
-        vector<int>arr(n);
-        for (int i = 0; i < n; i++)
-        {
-            cin >> arr[i];
+int findLargestElement(int arr[], int n) {
+    int max=a[0];
+    for(int i=0;i<n;i++){
+        if(a[i]>max){
+            max=a[i];
         }
-        Solution ob;
-        cout << ob.largest(arr, n) << "\n";
     }
-    return 0;
+    return max;
+}
+
+int main() {
+  int arr1[] = {2,5,1,3,0};
+  int n = 5;
+  int max = findLargestElement(arr1, n);
+  cout << "The largest element in the array is: " << max << endl;
+  return 0;
 }
